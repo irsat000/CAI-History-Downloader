@@ -14,7 +14,7 @@ var xhook = function () { "use strict"; const e = (e, t) => Array.prototype.slic
 var wsHook = {};
 (function () {
     // Mutable MessageEvent.
-    // Subclasses MessageEvent and makes data, origin and other MessageEvent properites mutatble.
+    // Subclasses MessageEvent and makes data, origin and other MessageEvent properties mutatble.
     function MutableMessageEvent(o) {
         this.bubbles = o.bubbles || false
         this.cancelBubble = o.cancelBubble || false
